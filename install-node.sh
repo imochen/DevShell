@@ -20,6 +20,7 @@ sudo mv $NODE_PKG_NAME /usr/local
 sudo chown -R root:root /usr/local/$NODE_PKG_NAME
 sudo rm -rf /usr/local/node
 sudo ln -s /usr/local/$NODE_PKG_NAME /usr/local/node
+sudo ln -s /usr/local/node/bin/* /usr/bin
  
 sudo npm install -g npm@$NPM_VERSION
 sudo npm install -g pm2@$PM2_VERSION
