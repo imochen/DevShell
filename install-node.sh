@@ -24,6 +24,7 @@ sudo ln -s /usr/local/node/bin/* /usr/bin
  
 sudo npm install -g npm@$NPM_VERSION
 sudo npm install -g pm2@$PM2_VERSION
+sudo ln -s /usr/local/node/bin/pm2 /usr/bin/pm2
 sudo pm2 update
 pm2 update
 
